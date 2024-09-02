@@ -11,9 +11,9 @@ button{
   box-shadow: 3px 5px 0px rgba(0,0,0,0,75);
 }
 #counter{
-  position absolute;
-  too: 20px;
-  right 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 #end{
   position:absolute;
@@ -28,15 +28,15 @@ button{
   background-color:red;
   padding: 20px 50px 20px 50px;
   font-family:inherit;
-  font size: inherit;
+  font-size: inherit;
 }
 #controlls{
   position: absolute;
   min-width: 100%;
-  min height: 100%;
+  min-height: 100%;
   display:flex;
   alight-items: flex-end;
-  justify-content: center:
+  justify-content: center;
 }
 #controlls div{
   display: grid;
@@ -52,7 +52,7 @@ button{
   border: 1px solid lightray;
 }
 #controlls button:first-of-type{
-  grid-column: 1/1;
+  grid-column: 1/-1;
 }
   
 
